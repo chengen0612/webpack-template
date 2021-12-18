@@ -7,4 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.bundle.js",
   },
+  devServer: {
+    static: ["dist"],
+    // enable gzip compression
+    compress: true,
+  },
 };
