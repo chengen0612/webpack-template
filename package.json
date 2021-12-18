@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Build a webpack template from scratch.",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "author": "Evans",
   "license": "MIT",
   "dependencies": {},
