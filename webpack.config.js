@@ -37,4 +37,5 @@ module.exports = {
     // open in default browser
     open: true,
   },
+  devtool: "eval-source-map",
 };
