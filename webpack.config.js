@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
@@ -15,6 +16,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "webpack-template",
+      template: "./src/index.html",
+    }),
+  ],
   devServer: {
     static: ["dist"],
     // enable gzip compression
