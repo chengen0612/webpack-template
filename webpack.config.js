@@ -30,5 +30,7 @@ module.exports = {
     static: ["dist"],
     // enable gzip compression
     compress: true,
+    // open in default browser
+    open: true,
   },
 };
