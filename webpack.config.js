@@ -12,11 +12,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.m?js$/i,
+        exclude: /node_modules/,
         use: "babel-loader",
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
