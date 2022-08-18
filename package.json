@@ -4,8 +4,8 @@
   "description": "Build a webpack template from scratch.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "Evans",
   "license": "MIT",
